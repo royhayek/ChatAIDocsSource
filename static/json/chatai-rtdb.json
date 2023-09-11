@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "ads": {
+      "rewarded": {
+        "android": "ca-app-pub-1469570455778464/6899068074",
+        "ios": "ca-app-pub-1469570455778464/4453655521"
+      }
+    },
+    "examples": {
+      "ar": [
+        "هل يمكنك إنشاء لعبة ألغاز حيث يكون الحل هو رمز مكون من 4 أرقام؟",
+        "هل يمكن أن تعطيني 5 تقنيات مجانية لزيادة حركة المرور العضوية إلى موقع الويب الخاص بي؟",
+        "كيف يمكنني تطوير أسلوبي الفريد كفنان؟ أعطني الخطوات لبدء رحلتي"
+      ],
+      "en": [
+        "Can you make a puzzle game where a 4-digit code is the solution?",
+        "Can you give me 5 free techniques on how to boost my website's organic traffic?",
+        "How can I develop my own unique style as an artist? Give me the steps to start my journey"
+      ],
+      "fr": [
+        "Pouvez-vous créer un jeu de puzzle où un code à 4 chiffres est la solution?",
+        "Pouvez-vous me donner 5 techniques gratuites pour augmenter le trafic organique de mon site Web?",
+        "Comment puis-je développer mon propre style en tant qu'artiste? Donnez-moi les étapes pour commencer mon voyage"
+      ]
+    },
+    "links": {
+      "privacyPolicy": "https://code-blow.com/chatAi/privacy_policy.html",
+      "termsAndConditions": "https://code-blow.com/chatAi/terms.html"
+    },
+    "other": {
+      "appleAppId": "1234578",
+      "dailyMessagesLimit": 5,
+      "googlePackageName": "com.codeblow.chatai"
+    },
+    "productIds": {
+      "android": [
+        "chatai_pro",
+        "chatai_pro_monthly",
+        "chatai_pro_yearly"
+      ],
+      "ios": [
+        "ios_subscription_weekly",
+        "ios_subscription_monthly",
+        "ios_subscription_yearly"
+      ]
+    }
+  },
+  "users": {}
+}
