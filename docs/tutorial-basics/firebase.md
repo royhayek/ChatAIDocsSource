@@ -58,7 +58,7 @@ Let's configure Firebase for cloud messaging
 
 11. After successfully importing the configuration, let's explore the various configurable aspects of the application (In the next 3 images):
 
-    1. ***Configuration***:
+    1. **_Configuration_**:
 
     - **Ads**: In this section, you should input your Ad IDs, which you will generate in the next step.
     - **Examples**: This is where you can customize the content of the application's homepage, including text in three different languages.
@@ -66,8 +66,7 @@ Let's configure Firebase for cloud messaging
     - **Product IDs**: This section is where you should enter the subscription IDs after creating them in Apple Store Connect and Google Play Console.
     - **Other**: In this category, you should input the Apple App ID and Google Package Name to enable the App rating feature. Additionally, you can set the daily free message limit, which is initially set to 5 messages.
 
-    2. ***Users***: In this section, you can view all of the application's users and adjust their daily message limits. Please be cautious when removing a user from this list, as it may result in unintended behavior within the app.
-
+    2. **_Users_**: In this section, you can view all of the application's users and adjust their daily message limits. Please be cautious when removing a user from this list, as it may result in unintended behavior within the app.
 
 This revision aims to make each section's purpose clearer and easier to understand.
 
@@ -76,3 +75,24 @@ This revision aims to make each section's purpose clearer and easier to understa
 ![Firebase 12](/img/firebase/firebase-12.png)
 
 ![Firebase 13](/img/firebase/firebase-13.png)
+
+12. Lastly, we have to update the database rules to be able to read and write to the database, copy the rules below and paste them as shown in the image below.
+
+```
+{
+  "rules": {
+    "configuration": {
+      ".read": "true",
+      ".write": "false"
+    },
+    "users": {
+      "$uid": {
+        ".read": "true",
+        ".write": "true"
+      }
+    }
+  }
+}
+```
+
+![Firebase 14](/img/firebase/firebase-14.png)
